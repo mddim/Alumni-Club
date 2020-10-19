@@ -1,0 +1,149 @@
+#img {
+	width: 70%;
+    position: relative;
+    padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	-webkit-transition: background-image 0.2s ease-in-out;
+	transition: background-image 0.2s ease-in-out;
+}
+
+#header {
+	background-color: #10163d;
+}
+
+#header-button {
+	background-color: #10163d;
+	color: #fff;
+	border: none;
+}
+
+#intro {
+	font-size: 40px;
+	font-family: Decorative;
+	color: #10163d;
+	text-align: center;
+	background-color: #d7daf4;
+	padding-top: 55px;
+}
+
+#search-form {
+    padding-bottom: 10px;
+	padding-left: 50px;
+	background-color: #d7daf4;
+	font-family: Decorative;
+    font-size: large;
+}
+
+#search-button {
+	background-color: #fff;
+	border: none;
+	padding: 2px;
+	cursor: pointer;
+}
+
+#table-header {
+	color: #10163d;
+	text-align: center;
+	font-family: Decorative;
+	font-size: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#event-search {
+	padding-top: 10px;
+	font-size: 24px;
+}
+
+#type-select {
+    margin-right: 30px;
+	width: 150px;
+}
+
+.search-table td {
+	padding: 5px 10px;
+	border: 1px solid #000;
+	vertical-align: top;
+}
+
+.table-scroll {
+	position: relative;
+	max-width: 1280px;
+	width:60%;
+	margin: auto;
+	display:table;
+	border-style: solid; 
+}
+
+.table-wrap {
+	width: 100%;
+	display:block;
+	overflow: auto;
+	position:relative;
+	z-index:1;
+	height: 400px;
+}
+
+.table-wrap thead th {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #283593;
+	color: #fff;
+}
+
+.table-wrap tr:nth-child(even) { 
+	background-color: #d7daf4;
+}
+
+.table-scroll table {
+	width: 100%;
+	margin: auto;
+	font-size: large;
+	border-collapse: separate;
+	border-spacing: 0;
+}
+.table-scroll th, .table-scroll td {
+	padding: 5px 10px;
+	vertical-align: top;
+}
+.faux-table table {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	pointer-events: none;
+}
+
+.faux-table table + table {
+	top: auto;
+	bottom: 0;
+}
+.faux-table table tbody {
+	visibility: hidden;
+	border-color: transparent;
+}
+.faux-table table + table thead {
+	visibility: hidden;
+	border-color: transparent;
+}
+.faux-table {
+	position:absolute;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+	overflow-y:scroll;
+}
+.faux-table thead, .faux-table tfoot, .faux-table thead th, .faux-table tfoot th, .faux-table tfoot td {
+	position:relative;
+	z-index:2;
+}
+body {    
+    margin: 0px;
+    padding: 0 !important;
+	margin-bottom: 50px;
+}
